@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,16 +20,25 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import wordpress from "./tech/wordpress.png"
+import arduino from "./tech/arduino.png"
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import startupwebsites from "./company/startupwebsites.jpg";
+import wildcats from "./company/wildcat.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import bernadette from "./bernadette.jpeg";
+import melvin from "./melvin.jpeg";
+import monyalle from "./monyalle.jpeg";
+ 
 export {
   logo,
   backend,
@@ -52,11 +61,18 @@ export {
   tailwind,
   typescript,
   threejs,
+  wordpress,
+  arduino,
   meta,
   shopify,
   starbucks,
   tesla,
+  wildcats,
+  startupwebsites,
   carrent,
   jobit,
   tripguide,
+  bernadette,
+  monyalle,
+  melvin,
 };

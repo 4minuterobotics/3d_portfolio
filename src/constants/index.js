@@ -15,14 +15,21 @@ import {
     git,
     figma,
     docker,
+    wordpress,
+    arduino,
     meta,
     starbucks,
     tesla,
+    wildcats,
+    startupwebsites,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    bernadette,
+    monyalle,
+    melvin,
   } from "../assets";
   
   export const navLinks = [
@@ -80,10 +87,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -112,15 +119,23 @@ import {
       name: "docker",
       icon: docker,
     },
+    // {
+    //   name: "wordpress",
+    //   icon: wordpress,
+    // },
+    {
+      name: "arduino",
+      icon: arduino,
+    },
   ];
   
   const experiences = [
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
+      company_name: "Ali Web Solutions",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2023 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,70 +144,58 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Wix Freelance Developer",
+      company_name: "Startup Websites",
+      icon: startupwebsites,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Use Wix's tools to create websites for clients, either from scratch or by customizing existing templates.",
+        "Utilizing Software as a Service (SaaS) tools to meets customer needs and requirements. ",
+        "Developing engaging content, selecting relevant images, and optimizing SEO for website growth.",
+        "Analyzing data: utilizing analytics and metrics to track user behavior and website performance.", 
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Arduino - C Programming Language Robotics Instructor",
+      company_name: "Thornton Township High School",
+      icon: wildcats,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Aug 2014 - May 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Explaining concepts such as variables, functions and loops in an engaging manner.",
+        "Guiding students through the basics of circuitry, wiring and programming.",
+        "Helping students troubleshoot any issues they might have and offer advice on how to improve their project.",
+        "Guiding students through creating their own projects that integrate Arduino with other components.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I tried making my website myself and it was a disaster. Will came through and saved me a lot of time.",
+      name: "Bernadette Wright",
+      designation: "Owner",
+      company: "Indiana Garza Fat Loss Camps",
+      image: bernadette,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Anytime I have any issues related to my website, I can call Will and he answers. He is helpful and dependable.",
+      name: "Monyalle Girten",
+      designation: "Owner",
+      company: "Monster Bouncy Houses",
+      image: monyalle,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "After Will optimized our website, we've been able to see our website move up the ranks on google search engine!",
+      name: "Melvin Armstrong",
+      designation: "CEO",
+      company: "Diversified General Contractors",
+      image: melvin,
     },
   ];
   
