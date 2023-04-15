@@ -28,12 +28,21 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import ali from "./company/ali.png";
 import startupwebsites from "./company/startupwebsites.jpg";
 import wildcats from "./company/wildcat.jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import amazona from "./amazona.png";
+import drewit from "./drewit.png";
+import will from "./will.png";
+import mosnter from "./monster.png"
+import diversified from "./diversified.png";
+import startup from "./startup.png";
+import shockfat from "./shockfat.png";
 
 import bernadette from "./bernadette.jpeg";
 import melvin from "./melvin.jpeg";
@@ -67,8 +76,16 @@ export {
   shopify,
   starbucks,
   tesla,
+  ali,
   wildcats,
   startupwebsites,
+  amazona,
+  drewit,
+  will,
+  mosnter,
+  diversified,
+  startup,
+  shockfat,
   carrent,
   jobit,
   tripguide,

@@ -20,12 +20,20 @@ import {
     meta,
     starbucks,
     tesla,
+    ali,
     wildcats,
     startupwebsites,
     shopify,
     carrent,
     jobit,
     tripguide,
+    amazona,
+    drewit,
+    will,
+    mosnter,
+    diversified,
+    startup,
+    shockfat,
     threejs,
     bernadette,
     monyalle,
@@ -115,14 +123,14 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
     // {
-    //   name: "wordpress",
-    //   icon: wordpress,
+    //   name: "docker",
+    //   icon: docker,
     // },
+    {
+      name: "wordpress",
+      icon: wordpress,
+    },
     {
       name: "arduino",
       icon: arduino,
@@ -133,7 +141,7 @@ import {
     {
       title: "React.js Developer",
       company_name: "Ali Web Solutions",
-      icon: starbucks,
+      icon: ali,
       iconBg: "#383E56",
       date: "March 2023 - Present",
       points: [
@@ -201,16 +209,38 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "E-commerce Store",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An online store that allows users to create an account, search for items, and pay using PayPal or Stripe. Includes an admin dashboard.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "mongodb, PayPal, Stripe",
+          color: "green-text-gradient",
+        },
+        {
+          name: "react bootstap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: amazona,
+      source_code_link: "https://github.com/4minuterobotics/amazonClone",
+      website_link: "https://wills-store-git-main-4minuterobotics.vercel.app/",
+    },
+    {
+      name: "AI Image Generator",
+      description:
+        "Web application that takes a prompt from users, converts it to an image, and saves it on a cloud with the option to post it to the home page.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb, openAI, cloudinary",
           color: "green-text-gradient",
         },
         {
@@ -218,50 +248,73 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: drewit,
+      source_code_link: "https://github.com/4minuterobotics/MERN-AI-image-generator",
+      website_link: "https://drew-it-git-main-4minuterobotics.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "3D Personal Portfolio",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A 3D themed web app of a web developer portfolio, displaying usage capability of 3D animation programming.",
       tags: [
         {
-          name: "react",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "emailjs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "threejs, tailwind, framer motion ",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: will,
+      source_code_link: "https://github.com/4minuterobotics/3d_portfolio/",
+      website_link: "https://williamlawrence.tech",
     },
     {
-      name: "Trip Guide",
+      name: "Bouncy House Rental",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An outdoor party rental business app, capable of scheduling bookings, receiving payments, and Saas functionality.",
       tags: [
         {
-          name: "nextjs",
+          name: "WIX",
           color: "blue-text-gradient",
         },
+      ],
+      image: mosnter,
+      source_code_link: "",
+      website_link: "https://www.monsterbouncyhouses.com",
+    },
+    {
+      name: "Web Developement Agency",
+      description:
+        "A web development agency app which displays graphic design, web design, and annimation portfolios, along with a dynamic questionairre for potential clients.",
+      tags: [
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "WIX",
+          color: "blue-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: startup,
+      source_code_link: "",
+      website_link: "https://www.startupwebsites.design",
+    },
+    {
+      name: "Crossfit Gym",
+      description:
+        "An app for a small gym that allows its customers to view changing schedules, order supplements, and watch live stream workouts.",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "green-text-gradient",
+        },
+      ],
+      image: shockfat,
+      source_code_link: "",
+      website_link: "https://www.shockfat.com",
     },
   ];
   

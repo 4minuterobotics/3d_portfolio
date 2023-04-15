@@ -49,7 +49,7 @@ const About = () => {
       >
         I'm an experienced software developer with a passion for web development. 
         I have extensive experience in JavaScript and specialize in popular frameworks 
-        such as React, Node.js, and Three.js. I'm a team player who loves learning 
+        such as React, Node.js, mongoDB, and Three.js. I'm a team player who loves learning 
         new technologies and working closely with clients to create efficient, 
         user-friendly solutions that solve real-world problems while scaling effectively.
         

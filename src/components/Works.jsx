@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  website_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -48,8 +49,14 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <h3 
+            onClick={() => window.open(website_link, "_blank")}
+            className='text-white font-bold text-[24px] cursor-pointer'>{name}</h3>
+          <p className='mt-2 text-secondary text-[14px]'>{description}
+          
+          <span 
+            onClick={() => window.open(website_link, "_blank")}
+            className='text-white font-medium text-[16px]'> <br/>*Visit Website</span></p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
