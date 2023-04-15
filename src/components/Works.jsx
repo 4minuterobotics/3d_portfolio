@@ -56,7 +56,7 @@ const ProjectCard = ({
           
           <span 
             onClick={() => window.open(website_link, "_blank")}
-            className='text-white font-medium text-[16px]'> <br/>*Visit Website</span></p>
+            className='text-white font-medium text-[16px] cursor-pointer'> <br/>*Visit Website</span></p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
