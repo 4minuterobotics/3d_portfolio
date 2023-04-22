@@ -1,9 +1,22 @@
 import {useEffect} from "react"; 
+import React, {lazy, Suspense} from 'react';
 import { BrowserRouter } from "react-router-dom"
-import {About, Contact, Experience, Feedbacks,
-Hero, Navbar, Tech, Works, StarsCanvas} from './components'
+// import {About, Contact, Experience, Feedbacks,
+// Hero, Navbar, Tech, Works, StarsCanvas} from './components'
+
+import {About} from './components'
+import {Contact} from './components'
+import {Experience} from './components'
+import {Feedbacks} from './components'
+import {Hero} from './components'
+import {Navbar} from './components'
+import {Tech} from './components'
+import {Works} from './components'
+import {StarsCanvas} from './components'
 import {toast, ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+
+
 
 
 const config = {
@@ -44,7 +57,10 @@ const App = () => {
   
   // this happens when an element enters the viewport being observed
   const loadSection = (component) =>{
-    console.log('loading component');
+    console.log('loading, ', component.id);
+    if (component.id === 'about'){
+          const About = lazy(() => import ("./components"))
+    }
   }
 
   return (
@@ -55,6 +71,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
+        <Suspense fallback = {<h1> Loading...</h1>}>
         <About />
         <Experience />
         <Tech />
@@ -64,6 +81,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        </Suspense>
       </div>
     </BrowserRouter>
   )
